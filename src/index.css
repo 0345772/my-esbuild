@@ -1,4 +1,18 @@
 * {
-  background: rgb(222, 219, 229);
-  color: rgb(213, 33, 33);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.app {
+  height: 100vh;
+  margin: 20px;
+  padding: 30px;
+  background: rgb(231, 237, 221)
+}
+.mainTitle {
+  color: blue;
+  text-align: center;
+  margin-bottom: 20px;
 }

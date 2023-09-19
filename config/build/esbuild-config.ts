@@ -31,7 +31,7 @@ const config: BuildOptions = {
         CleanPlugin,
         HTMLPlugin({
             title: 'Step_65',
-        })
+        }),
     ],
 }
 

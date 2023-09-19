@@ -4,11 +4,12 @@ import './index.css';
 
 const App = () => {
   const [state, setState] = useState<number>(0)
+  
   return (
-    <div>
-      Hello, my frend! It is an App-component.
+    <div className='app'>
+      <h3 className='mainTitle'>Hello, my frend! It is an App-component.</h3>
       
-      <h3>{state}</h3>
+      <h3 className='counterValue'>{state}</h3>
       <button onClick={()=>setState(state+1)}>clickMe</button>
     </div>
   );
